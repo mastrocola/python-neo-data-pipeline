@@ -3,23 +3,23 @@ Implementation of a data pipeline that acquires information of nearby objects th
 
 
 ## Folder structure
-root
- |--src
- |   |--app
- |   |   |--app.py
- |   |   |--celery.py
- |   |--entities
- |   |   |--near_earth_objects.py
- |   |--functions
- |   |   |--neo.py
- |   |--services
- |   |   |--shared
- |   |   |   |--singleton_meta.py
- |   |   |--logger.py
- |   |--utils
- |   |   |--date.py
- |   |   |--exec_task.py
- |   |   |--folder.py
+root  
+ |--src  
+ |   |--app  
+ |   |   |--app.py  
+ |   |   |--celery.py  
+ |   |--entities  
+ |   |   |--near_earth_objects.py  
+ |   |--functions  
+ |   |   |--neo.py  
+ |   |--services  
+ |   |   |--shared  
+ |   |   |   |--singleton_meta.py  
+ |   |   |--logger.py  
+ |   |--utils  
+ |   |   |--date.py  
+ |   |   |--exec_task.py  
+ |   |   |--folder.py  
  |   |--settings.py
 
 ### app.py
