@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: neo-data-pipeline
+    volumes:
+      - .:/app

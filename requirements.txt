@@ -1,2 +1,5 @@
+celery==5.2.7
 pyspark==3.3.2
+python-decouple==3.5
+redis==4.3.4
 requests==2.26.0
